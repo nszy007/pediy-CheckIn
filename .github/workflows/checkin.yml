@@ -16,7 +16,7 @@ jobs:
       - name: setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '16.x'
+          node-version: '24.x'  # 主要修改了这里，将 16.x 升级到了 20.x
       - name: install dependency(dependencies)
         run: npm install
       - name: CheckIn
